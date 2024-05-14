@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Galeria de fotos</title>
+</head>
+
+<body>
+    <header>
+        <h1>Galeria de fotos</h1>
+        <button type="button">Nova imagem +</button>
+    </header>
+    <form>
+        <h2>Insira uma nova imagem</h2>
+        <input type="url" id="linkNovaImagem" placeholder="URL da imagem">
+        <button type="submit">Adicionar</button>
+        <button type="reset" id="botao-cancelar">Cancelar</button>
+    </form>
+    <ul>
+
+        <li>
+            <img src="/assets/img/cat.jpg" alt="Gato deitado">
+            <div class="overlay-img-link">
+                <a href="assets/img/cat.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho
+                    real</a>
+            </div>
+        </li>
+        <li>
+            <img src="/assets/img/cat2.jpg" alt="imagem de um gato">
+            <div class="overlay-img-link">
+                <a href="assets/img/cat2.jpg" target="_blank" title="Ver imagem em tamanho real">Ver imagem em tamanho
+                    real</a>
+            </div>
+        </li>
+
+    </ul>
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
